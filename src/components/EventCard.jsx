@@ -1,3 +1,5 @@
+import { FaCalendarAlt } from "react-icons/fa";
+import { FaMapLocationDot } from "react-icons/fa6";
 const EventCard = ({ event }) => {
     return (
       <div className="bg-white shadow-md rounded-lg p-4">
