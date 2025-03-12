@@ -11,26 +11,26 @@ const Navbar = () => {
     <>
       <nav className="bg-white dark:bg-black fixed top-0 w-full shadow-md z-50 py-3 px-6 flex justify-between items-center">
         <div className="container mx-auto flex justify-between items-center">
-          <Link className="text-2xl md:text-3xl font-bold flex italic w-1/3">
-            <SiBamboo className="text-amber-400 text-2xl md:text-4xl self-center" />
+          <Link className="text-2xl lg:text-3xl font-bold flex italic w-1/3">
+            <SiBamboo className="text-amber-400 text-2xl lg:text-4xl self-center" />
 
-            <p className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
+            <p className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent hidden md:flex">
               ommunionHu
             </p>
-            <SiBitly className="text-orange-500 text-2xl md:text-4xl self-center" />
+            <SiBitly className="text-orange-500 text-2xl lg:text-4xl self-center" />
           </Link>
           <div className="space-x-4 flex font-bold text-lg dark:text-white">
             <Link to="/" className="hover:underline flex gap-2">
               <FaHome className="self-center text-xl" />
-              Home
+              <p className="hidden md:block">Home</p>
             </Link>
             <Link to="/events" className="hover:underline flex gap-2">
               <MdEventRepeat className="self-center text-xl" />
-              Events
+              <p className="hidden md:block">Events</p>
             </Link>
             <div className="hover:underline flex gap-2">
               <BiSolidMessageSquareDetail className="self-center text-xl" />
-              About
+              <p className="hidden md:block">About</p>
             </div>
           </div>
         </div>

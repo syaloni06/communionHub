@@ -19,9 +19,9 @@ const DarkModeToggle = () => {
   return (
     <button onClick={() => setDarkMode(!darkMode)} className="p-2">
       {darkMode ? (
-        <MdWbSunny className="text-3xl text-yellow-400" />
+        <MdWbSunny className=" text-xl md:text-3xl text-yellow-400" />
       ) : (
-        <MdNightsStay className="text-3xl" />
+        <MdNightsStay className=" text-xl md:text-3xl" />
       )}
     </button>
   );

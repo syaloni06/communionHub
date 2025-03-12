@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <div className="flex flex-col items-center bg-white dark:bg-black justify-center text-center min-h-screen">
         <div className="animate-fadeIn ">
-          <h1 className="mt-24 lg:mt-24 text-3xl md:text-5xl lg:text-6xl font-bold animate-slideUp delay-[200ms] ">
+          <h1 className="mt-24 lg:mt-24 text-3xl md:text-5xl lg:text-6xl font-bold animate-slideUp delay-[200ms] mx-1 ">
             <div className="text-gray-900 dark:text-white">
               Welcome to{" "}
               <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
@@ -15,15 +15,15 @@ const Home = () => {
               Where Faith and Community Unite!
             </div>
           </h1>
-          <div className="mt-3 mx-1 md:mx-24 text-sm md:text-lg italic animate-slideUp delay-[400ms]">
-            <p className="text-gray-600 dark:text-white">
+          <div className="mt-3 mx-2 md:mx-24 text-sm md:text-lg italic animate-slideUp delay-[400ms]">
+            <p className="text-gray-600 dark:text-white text-sm md:text-base">
               Bringing people together across beliefs and backgrounds, Communion
               is your gateway to meaningful connections, inspiring events, and a
               supportive community. Whether you're here to explore, engage, or
               uplift others, you’ll find a place where everyone belongs.
             </p>
           </div>
-          <span className="bg-gradient-to-r from-yellow-400 to-orange-500 font-bold bg-clip-text text-transparent animate-slideUp delay-[600ms]">
+          <span className="bg-gradient-to-r mx-2 from-yellow-400 to-orange-500 font-bold bg-clip-text text-transparent animate-slideUp delay-[600ms] text-sm md:text-base">
             Join us in building bridges, celebrating diversity, and
             strengthening our shared humanity.
           </span>
